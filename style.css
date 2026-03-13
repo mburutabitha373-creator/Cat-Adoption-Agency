@@ -1,0 +1,52 @@
+body {
+    font-family: Arial,  sans-serif;
+    margin: 1em;
+    padding: 1em;
+    background: white;
+    text-align: center;
+}
+header {
+    background-color: orange;
+    color: white;
+    padding: 20px;
+}
+h2 {
+    margin: 20px 0;
+}
+.cat-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em;
+    
+}
+.cat-card {
+    background-color: black;
+    flex: 1 1 300px;
+    margin: 1em;
+    padding: 1em;
+    border: 1 1 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    
+
+}
+.cat-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 0.5em 0;
+    
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 2em;
+    margin-top: 20px;
+}
+@media(max-width: 768px) {
+    .cat-card{
+        width: 45%;
+    }
+}
